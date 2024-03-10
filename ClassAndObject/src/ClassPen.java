@@ -14,9 +14,11 @@ class Pen {
 class Student {
     String name;
     int age;
+    int rollno;
     public void StudentInfo() {
         System.out.println(this.name);
         System.out.println(this.age);
+        System.out.println(this.rollno);
     }
 }
 public class ClassPen {
@@ -25,6 +27,7 @@ public class ClassPen {
         Student s1 = new Student();
         s1.name= "MERAJ";
         s1.age = 20;
+        s1.rollno = 1;
 
         s1.StudentInfo();
 
